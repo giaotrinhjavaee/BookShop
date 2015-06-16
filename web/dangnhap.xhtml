@@ -14,10 +14,10 @@
                     <h:inputText id="username" value="#{nguoiDungMBean.username}"/>
 
                     <h:outputText id="lbpassword" value="Mật khẩu: " />
-                    <h:inputText id="password" value="#{nguoiDungMBean.password}"/>
+                    <h:inputSecret id="password" value="#{nguoiDungMBean.password}"/>
 
                     <h:inputHidden />
-                    <h:commandButton value="Đăng nhập" action="welcome"/>
+                    <h:commandButton value="Đăng nhập" action="#{nguoiDungMBean.checkUser()}"/>
                     <h:inputHidden />
                     Register | Forget password
                 </h:panelGrid>

@@ -16,6 +16,14 @@ public class NguoiDungMBean {
     public NguoiDungMBean() {
     }
 
+    public String checkUser(){
+        String outcome="dangnhap";
+        if(username.equals("admin")&&password.equals("123456")){
+            outcome="sanpham";
+        }
+        return outcome;
+    }
+    
     public String getUsername() {
         return username;
     }
@@ -32,4 +40,5 @@ public class NguoiDungMBean {
         this.password = password;
     }
 
+    
 }
