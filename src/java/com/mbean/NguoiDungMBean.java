@@ -38,7 +38,5 @@ public class NguoiDungMBean {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    
+    }    
 }

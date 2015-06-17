@@ -3,12 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html">
     <h:head>
-        <title>Facelet Title</title>
+        <title>ĐĂNG NHẬP</title>
     </h:head>
     <h:body>
         <h:form id="form1">
             <div align="center">
-                <h3>Đăng nhập</h3>
+                <h3>ĐĂNG NHẬP</h3>
                 <h:panelGrid columns="2">                               
                     <h:outputText id="lbusername" value="Tài khoản: " />
                     <h:inputText id="username" value="#{nguoiDungMBean.username}"/>
@@ -19,7 +19,7 @@
                     <h:inputHidden />
                     <h:commandButton value="Đăng nhập" action="#{nguoiDungMBean.checkUser()}"/>
                     <h:inputHidden />
-                    Register | Forget password
+                    Đăng ký | Quên mật khẩu
                 </h:panelGrid>
             </div>
         </h:form>
